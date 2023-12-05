@@ -39,14 +39,7 @@ const project: CosmosProject = {
         "osmosis.gamm.v1beta1",
         {
           file: "./proto/osmosis/gamm/v1beta1/tx.proto",
-          messages: ["MsgSwapExactAmountIn"],
-        },
-      ],
-      [
-        "osmosis.gamm.v1beta1",
-        {
-          file: "./proto/osmosis/gamm/v1beta1/tx.proto",
-          messages: ["MsgSwapExactAmountOut"],
+          messages: ["MsgSwapExactAmountIn", "MsgSwapExactAmountOut"],
         },
       ],
       [
